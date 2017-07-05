@@ -36,6 +36,11 @@ p {
   height: 100% !important;
   width: 100% !important;
 }
+.logo-movil{
+  background-color: cornsilk;
+  border-radius: 5px;
+  padding: 7px;
+}
 .name,
 .email{
   font-weight: 500 !important;
