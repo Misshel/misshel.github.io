@@ -67,8 +67,8 @@ html, body {
 }
 
 body {
-  /*background: #EEE;
-  font: 5em/1 Open Sans, Impact;
+  background: #ffffff;
+  /*font: 5em/1 Open Sans, Impact;
   text-transform: uppercase;*/
 }
 
@@ -80,3 +80,18 @@ svg {
   text-transform: uppercase;
   width: 100%;
 }
+.autor{
+  font-style: italic;
+  font-weight: bold;
+}
+.icon-footer{
+  margin-right: 1rem;
+}
+
+/*footer ul{
+  display: inline-flex;
+  margin-left: 1rem;
+  }
+footer ul li{
+  margin-right: 3rem;
+}*/
