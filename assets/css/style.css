@@ -68,6 +68,10 @@ p {
   font-size: inherit;
 }
 
+footer .container {
+  padding-bottom: 1rem;
+}
+
 footer.page-footer {
   margin: 0;
 }
