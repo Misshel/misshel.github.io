@@ -1,1 +1,5 @@
-console.log(Portafolio);
+$(_ => {
+  $(".button-collapse").sideNav();
+  $('.parallax').parallax();
+  
+});

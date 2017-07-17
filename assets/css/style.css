@@ -5,73 +5,115 @@
 *
 * Made By MaterializeCSS.com
 */
-
+/*
 nav ul a,
 nav .brand-logo {
-  color: #444;
+color: #444;
 }
 
 p {
-  line-height: 2rem;
+line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+min-height: 380px;
+line-height: 0;
+height: auto;
+color: rgba(255,255,255,.9);
 }
 .parallax-container .section {
-  width: 100%;
+width: 100%;
 }
 
-.background{
-  filter: blur(0.53px);
-}
+
 .fondo-movil{
-  height: 100% !important;
-  width: 100% !important;
+height: 100% !important;
+width: 100% !important;
 }
 .logo-movil{
-  background-color: cornsilk;
-  border-radius: 5px;
-  padding: 7px;
+background-color: cornsilk;
+border-radius: 5px;
+padding: 7px;
 }
 .name,
 .email{
-  font-weight: 500 !important;
+font-weight: 500 !important;
 }
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+.parallax-container .section {
+position: absolute;
+top: 40%;
+}
+#index-banner .section {
+top: 10%;
+}
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+#index-banner .section {
+top: 0;
+}
 }
 
 .icon-block {
-  padding: 0 15px;
+padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+font-size: inherit;
 }
 
 footer .container {
-  padding-bottom: 1rem;
+padding-bottom: 1rem;
 }
 
 footer.page-footer {
-  margin: 0;
+margin: 0;
+}
+*/
+
+nav{
+  background-color: transparent !important;
+  box-shadow: none;
+}
+nav a {
+  color: #4DB6AC;
+}
+nav ul a{
+  color: #4DB6AC;
+}
+.parallax-container{
+  top: -100px;
+}
+.user-view{
+  height: 11rem;
+}
+.background{
+  opacity: 0.8;
+}
+.circle{
+  height: 7rem !important;
+  width: 7rem !important;
+}
+.img-circle{
+  position: absolute;
+  top: 6rem;
+}
+.user-view{
+  margin-bottom: 2rem !important;
+}
+.email-font{
+  font-size: 12px !important;
+  padding-right: 5px !important;
+}
+.side-nav{
+  background-color: #66d4cf !important;
+}
+#Iam{
+  z-index: 5;
+  position: relative;
+  top: -101px;
 }
