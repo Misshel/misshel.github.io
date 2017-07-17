@@ -74,7 +74,9 @@ footer.page-footer {
 margin: 0;
 }
 */
-
+body {
+  background: #319e73;
+}
 nav{
   background-color: transparent !important;
   box-shadow: none;
@@ -114,6 +116,23 @@ nav ul a{
 }
 #Iam{
   z-index: 5;
+  padding: 2.5rem 0;
   position: relative;
   top: -101px;
+}
+.iam{
+  margin: 1rem 0;
+}
+#proyec{
+  bottom: 50px;
+  position: relative;
+}
+.page-footer{
+  height: 7rem;
+}
+.text-footer{
+  font-size: 1.3rem;
+}
+.margin-top1{
+  margin-top: 1rem;
 }
