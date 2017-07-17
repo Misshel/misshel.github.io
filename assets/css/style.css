@@ -87,11 +87,15 @@ nav a {
 nav ul a{
   color: #4DB6AC;
 }
+nav ul a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
 .bolt{
   font-weight: bold;
 }
 #index-banner{
   height: 105vh;
+  z-index: -5;
 }
 .parallax-container{
   top: -100px;
@@ -131,6 +135,7 @@ nav ul a{
 }
 #proyec{
   bottom: 50px;
+  margin-top: 7rem;
   position: relative;
 }
 .page-footer{
@@ -149,8 +154,12 @@ nav ul a{
   margin-bottom: 1rem;
 }
 footer .row{
-    background-color: #1f6f52 !important;
-    height: 100%;
-    margin-bottom: 0;
-    padding-bottom: 1em;
-  }
+  background-color: #1f6f52 !important;
+  height: 100%;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+.card{
+  border-radius: 2rem !important;
+  overflow: hidden;
+}
